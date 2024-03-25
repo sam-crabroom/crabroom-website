@@ -1,0 +1,44 @@
+
+
+.card {
+  
+    background-color: light-dark(var(--mantine-color-gray-10), var(--mantine-color-dark-4));
+     /* Adjust the shadow values as needed */
+    
+   
+  }
+  
+  .section {
+    border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-4));
+    padding-top: var(--mantine-spacing-md);
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    padding-bottom: var(--mantine-spacing-md);
+  }
+  .section1 {
+    border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-4));
+    
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    padding-bottom: var(--mantine-spacing-md);
+  }
+  
+  .gradientBackground {
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: var(--mantine-radius-md); /* Add border-radius for the gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for the gradient background */
+    border: 2px solid transparent; /* Set initial border with transparent color */
+  }
+  
+  /* Add hover effect for the border */
+  .gradientBackground:hover {
+    border: 2px solid #4b6cb7; /* Change border color on hover */
+  }
+  
+  .label {
+    
+    font-size: var(--mantine-font-size-xs);
+    font-weight: 700;
+  }
+  

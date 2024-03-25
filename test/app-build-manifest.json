@@ -1,0 +1,21 @@
+{
+  "pages": {
+    "/demos-demo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/demos-demo/page.css",
+      "static/chunks/app/demos-demo/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/prebuilt-steps/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/prebuilt-steps/page.js"
+    ]
+  }
+}
