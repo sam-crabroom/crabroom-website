@@ -161,7 +161,7 @@ const content = [
       </div>
     ),
   },
-  
+
   {
     title: "10. Comprehensive Health Insurance Coverage",
     description:
@@ -186,66 +186,72 @@ const CoreTeamPerks = () => {
   }, []);
 
   return (
-    <div className="lg:px-40 sm:px-0 md:px-20">
-      <div className="pl-8 pr-8">
-        <br/>
-        <br/>
+    <div>
+      <div className="lg:px-40 sm:px-0 md:px-20">
+        <div className="pl-8 pr-8">
+          <br />
+          <br />
 
-        <h1 className="text-2xl text-sky-500 font-ethnocentric mb-4">
-          Joining Crabroom's Jr. Core Collaborators
-        </h1>
-        <h2 className="text-lg text-gray-500 font-ethnocentric">The Path to High Achievement at Crabroom</h2>
+          <h1 className="text-2xl text-sky-500 font-ethnocentric mb-4">
+            Joining Crabroom's Jr. Core Collaborators
+          </h1>
+          <h2 className="text-lg text-gray-500 font-ethnocentric">
+            The Path to High Achievement at Crabroom
+          </h2>
 
-        <br/>
-        <div className="flex justify-end">
-          <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-64 rounded-full bg-sky-800 p-2 flex justify-center items-center">
-            <div className="absolute z-10 w-52 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+          <br />
+          <div className="flex justify-end">
+            <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-64 rounded-full bg-sky-600 hover:bg-sky-700 p-2 flex justify-center items-center">
+              {/* <div className="absolute z-10 w-52 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
             <div className="absolute z-10 w-44 h-40 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
             <div className="absolute z-10 w-36 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
-            {/* <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div> */}
+            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div> */}
+              {/* <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div> */}
 
-            <div className="relative z-20">
-              <Link
-                href={"/interviewprocess"}
-                className="font-semibold text-slate-100"
-              >
-                Interview Process 🡢
-              </Link>
-            </div>
-          </button>
-        </div>
+              <div className="relative z-20">
+                <Link
+                  href={"/interviewprocess"}
+                  className="font-ethnocentric text-sm text-slate-100"
+                >
+                  Interview Process
+                </Link>
+              </div>
+            </button>
+          </div>
 
-        <h3 className="text-md text-gray-400 font-ethnocentric mb-4">[Ten Perks]</h3>
+          <h3 className="text-md text-gray-400 font-ethnocentric mb-4 mt-2">
+            [Ten Perks]
+          </h3>
 
-        <br/>
-        <br/>
+          <br />
+          <br />
 
-        <div className="pb-10 sm:px-0">
-          <StickyScroll content={content} />
-        </div>
+          <div className="pb-10">
+            <StickyScroll content={content} />
+          </div>
 
-        <div className="flex justify-end pb-10">
-        <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-64 rounded-full bg-sky-800 p-2 flex justify-center items-center">
-            <div className="absolute z-10 w-52 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+          <div className="flex justify-end pb-10">
+            <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-64 rounded-full bg-sky-600 hover:bg-sky-700 p-2 flex justify-center items-center">
+              {/* <div className="absolute z-10 w-52 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
             <div className="absolute z-10 w-44 h-40 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
             <div className="absolute z-10 w-36 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
-            {/* <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div> */}
+            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div> */}
+              {/* <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div> */}
 
-            <div className="relative z-20">
-              <Link
-                href={"/interviewprocess"}
-                className="font-semibold text-slate-100"
-              >
-                Interview Process 🡢
-              </Link>
-            </div>
-          </button>
+              <div className="relative z-20">
+                <Link
+                  href={"/interviewprocess"}
+                  className="font-ethnocentric text-sm text-slate-100"
+                >
+                  Interview Process
+                </Link>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

@@ -53,7 +53,7 @@ export default function Footer() {
                       href={"/crabroom-meaning"}
                       className="text-gray-400 hover:text-gray-100 transition duration-150 text-base ease-in-out"
                     >
-                      Crabroom - It's Meaning
+                      Crabroom - Analogy
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -113,24 +113,24 @@ export default function Footer() {
                   Other Links
                 </span>
                 <ul>
-                  <li className="mb-1 mt-2">
+                  {/* <li className="mb-1 mt-2">
                     <Link
                       href={"/demos-demo"}
                       className="text-gray-400 hover:text-gray-100 transition duration-150 text-base ease-in-out"
                     >
                       Demo
                     </Link>
-                  </li>
-                  <li className="mb-1">
+                  </li> */}
+                  {/* <li className="mb-1">
                     <Link
                       href="/gallery"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 text-base ease-in-out"
                     >
                       Gallery
                     </Link>
-                  </li>
+                  </li> */}
 
-                  <li className="mb-1">
+                  <li className="mb-1 mt-2">
                     <Link
                       href={"/termsconditions"}
                       className="text-gray-400 hover:text-gray-100 transition duration-150 text-base ease-in-out"

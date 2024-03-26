@@ -17,7 +17,7 @@ export default function CallToAction() {
     <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center pb-20">
       <div className="transition duration-1000 ease-in-out">
         <Link
-          className="btn text-white bg-sky-500 hover:bg-sky-600 rounded-md w-44 text-md mb-4"
+          className="btn text-white bg-sky-500 hover:bg-sky-600 font-ethnocentric rounded-md w-48 text-[10px] sm:w-60 sm:text-sm mb-4"
           href={"/bookmeeting"}
           passHref
         >

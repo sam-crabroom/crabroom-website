@@ -11,107 +11,109 @@ export default function Ourproduct() {
           {/* Items */}
 
           <div
-            className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
+            className="max-w-sm py-4 md:py-0 mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
             data-aos-id-blocks
           >
             {/* 1st item */}
-            <Link href={"/paymentgateway"}>
+            <Link href="/">
+            {/* {"/paymentgateway"} */}
               <div className="h-[20rem] w-full flex items-center justify-center ">
                 <PinContainer title="/crabroom.com/paymentgateway">
                   <div
-                    className="flex basis-full flex-col p-4 tracking-tight rounded-3xl text-white sm:basis-1/2 w-[20rem] h-[20rem]"
+                    className="flex basis-full flex-col p-4 tracking-tight rounded-md text-white sm:basis-1/2 w-[20rem] h-[20rem]"
                     style={{ backgroundColor: "white" }}
                   >
                     <h3 className="max-w-xs !pb-2 !m-0 font-ethnocentric text-base text-sky-500">
-                      POS or Payment Gateway Matchmaker Tool
+                      PG-POS Matchmaker
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                       <span className="text-slate-500 ">
-                        A payment gateway selector is a user interface element
-                        or feature within an application or website that allows
-                        users to configure their preferred payment gateway .
+                        Find your ideal payment gateway or POS system with our
+                        tool by filtering through features, costs, and more to
+                        make an informed business decision.
                       </span>
+                      <br />
                     </div>
                     <div
-                      className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
+                      className="flex flex-1 w-full rounded-lg mt-10 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
                       style={{ height: "200", width: "300" }}
                     />
                   </div>
                 </PinContainer>
               </div>
             </Link>
-            <Link href={"/qrcodeman"}>
+            <Link href="/">
+            {/* {"/qrcodeman"} */}
               <div className="h-[20rem] w-full flex items-center justify-center">
                 <PinContainer title="/crabroom.com/qrcodemanufactures">
                   <div
-                    className="flex basis-full flex-col p-4 tracking-tight rounded-3xl text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
+                    className="flex basis-full flex-col p-4 tracking-tight rounded-md text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
                     style={{ backgroundColor: "white" }}
                   >
                     <h3 className="max-w-xs !pb-2 !m-0 font-ethnocentric text-base text-sky-500 text-md">
-                      PayInt NoCode
+                      DineBot
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                       <span className="text-slate-500 ">
-                        With a focus on transforming traditional signage into
-                        dynamic and profit-driven tools, QR code manufacturers
-                        provide customization options, allowing businesses to
-                        create branded and visually appealing QR codes.
+                        AI-driven digital menu maximizing profits with
+                        high-margin dish recommendations, reduces waste through
+                        inventory management, and promotes upselling, all while
+                        streamlining service operations.
                       </span>
                     </div>
                     <div
-                      className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
+                      className="flex flex-1 w-full rounded-lg mt-5 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
                       style={{ height: "200", width: "300" }}
                     />
                   </div>
                 </PinContainer>
               </div>
             </Link>
-            <Link href="">
+            <Link href="/">
               <div className="h-[20rem] w-full flex items-center justify-center">
                 <PinContainer title="/crabroom.com/qrcodemanufactures">
                   <div
-                    className="flex basis-full flex-col p-4 tracking-tight  rounded-3xl text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
+                    className="flex basis-full flex-col p-4 tracking-tight rounded-md text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
                     style={{ backgroundColor: "white" }}
                   >
                     <h3 className="max-w-xs !pb-2 !m-0 font-ethnocentric text-base text-sky-500">
-                      PayInt AI - Realtime Chat Support
+                      Build Now, Pay Later
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                       <span className="text-slate-500 ">
-                        With a focus on transforming traditional signage into
-                        dynamic and profit-driven tools, QR code manufacturers
-                        provide customizations, allowing businesses to
-                        create branded and visually appealing QR codes.
+                        Allowing online business owners to develop
+                        transaction-heavy web applications immediately and
+                        offering flexible, innovative payment solutions later.
                       </span>
                     </div>
                     <div
-                      className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
+                      className="flex flex-1 w-full rounded-lg mt-10 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
                       style={{ height: "200", width: "300" }}
                     />
                   </div>
                 </PinContainer>
               </div>
             </Link>
-            <Link href="/gemini">
+            <Link href="/"> 
+            {/* /gemini */}
               <div className="h-[20rem] w-full flex items-center justify-center">
                 <PinContainer title="/crabroom.com/qrcodemanufactures">
                   <div
-                    className="flex basis-full flex-col p-4 tracking-tight rounded-3xl  text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
+                    className="flex basis-full flex-col p-4 tracking-tight rounded-md text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
                     style={{ backgroundColor: "white" }}
                   >
                     <h3 className="max-w-xs !pb-2 !m-0 font-ethnocentric text-base text-sky-500">
-                      PayInt Demo
+                      Demo
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                       <span className="text-slate-500 ">
-                        With a focus on transforming traditional signage into
-                        dynamic and profit-driven tools, QR code manufacturers
-                        provide customization options, allowing businesses to
-                        create branded and visually appealing QR codes.
+                        Discover our portfolio of previous payment integration
+                        projects, showcasing our expertise and diverse solutions
+                        in financial transaction technology.
                       </span>
                     </div>
                     <div
-                      className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
+                      className="flex flex-1 w-full rounded-lg mt-10 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
                       style={{ height: "200", width: "300" }}
                     />
                   </div>
@@ -119,52 +121,52 @@ export default function Ourproduct() {
               </div>
             </Link>
 
-            <Link href="">
+            <Link href="/">
               <div className="h-[20rem] w-full flex items-center justify-center ">
                 <PinContainer title="/crabroom.com/qrcodemanufactures">
                   <div
-                    className="flex basis-full flex-col p-4 tracking-tight rounded-3xl text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
+                    className="flex basis-full flex-col p-4 tracking-tight rounded-md text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
                     style={{ backgroundColor: "white" }}
                   >
                     <h3 className="max-w-xs !pb-2 !m-0 font-ethnocentric text-base text-sky-500">
-                      PayInt Consultation
+                      Consultation
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                       <span className="text-slate-500 ">
-                        With a focus on transforming traditional signage into
-                        dynamic and profit-driven tools, QR code manufacturers
-                        provide customization options, allowing businesses to
-                        create branded and visually appealing QR codes.
+                        Get a free initial consultation on payment integrations,
+                        leveraging our expertise to enhance your business's
+                        transaction capabilities and financial technology
+                        solutions.
                       </span>
                     </div>
                     <div
-                      className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
+                      className="flex flex-1 w-full rounded-lg mt-10 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
                       style={{ height: "200", width: "300" }}
                     />
                   </div>
                 </PinContainer>
               </div>
             </Link>
-            <Link href="">
+            <Link href="/">
               <div className="h-[20rem] w-full flex items-center justify-center ">
                 <PinContainer title="/crabroom.com/qrcodemanufactures">
                   <div
-                    className="flex basis-full flex-col p-4 tracking-tight  rounded-3xl text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
+                    className="flex basis-full flex-col p-4 tracking-tight rounded-md text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]"
                     style={{ backgroundColor: "white" }}
                   >
                     <h3 className="max-w-xs !pb-2 !m-0 font-ethnocentric text-base text-sky-500">
-                      PayInt Development
+                      Development
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                       <span className="text-slate-500 ">
-                        With a focus on transforming traditional signage into
-                        dynamic and profit-driven tools, QR code manufacturers
-                        provide customization options, allowing businesses to
-                        create branded and visually appealing QR codes.
+                        Experience rapid development with Stripe-certified
+                        experts, ensuring fast turnover, PCI compliance, and
+                        advanced payment solutions tailored to your business
+                        needs.
                       </span>
                     </div>
                     <div
-                      className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
+                      className="flex flex-1 w-full rounded-lg mt-10 bg-gradient-to-br from-sky-400 via-sky-600 to-sky-700"
                       style={{ height: "200", width: "300" }}
                     />
                   </div>

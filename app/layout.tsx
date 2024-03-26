@@ -40,7 +40,7 @@ export default function RootLayout({
       {/*<body className={` "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif ${inter.variable} ${architects_daughter.variable}  font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>*/}
       <body
         style={{
-          fontFamily: `"Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,  sans-serif`,
+          fontFamily: `"Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, ethnocentric,  sans-serif`,
           //backgroundColor: "#1F456E", 
           // Set your desired background color
           backgroundColor: '#020617',

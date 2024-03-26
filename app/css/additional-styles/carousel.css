@@ -4,20 +4,17 @@
   /* justify-items: left; */
 
   background: transparent;
-  
 
   /* background-color: #D3D3D3 ; */
-
 }
 
 .rbd-review-container {
   margin-top: 5px;
   height: 250px;
-  background:rgb(100 116 139 1) ;
-  
+  background: rgb(100 116 139 1);
+
   /* background-color: #D3D3D3 ; */
   /* justify-items:left */
-
 }
 
 /* .rbd-review-slider .rbd-preloader {
@@ -46,7 +43,6 @@
   opacity: 1;
   display: inline-block;
 
-
   width: 90%;
 }
 
@@ -55,10 +51,10 @@
   padding: 20px 20px;
   font-size: 17px;
   line-height: 1.612;
-  border-radius: 36px;
- box-shadow: 0 15px 50px -12px #04A4EC;
- /*box-shadow: inset 0 2px 4px 0 rgba(42, 12, 150, 0.05);*/
- 
+  border-radius: 8px;
+  box-shadow: 0 15px 20px -12px #04a4ec;
+  /*box-shadow: inset 0 2px 4px 0 rgba(42, 12, 150, 0.05);*/
+
   display: none;
   vertical-align: top;
   transition: opacity 0.35s ease-out, transform 0.35s ease-out;
@@ -81,14 +77,12 @@
 .rbd-review-slider .rbd-heading {
   margin-top: 0;
   margin-bottom: 10px;
-  color:black;
+  color: black;
   font-size: 20px;
   font-weight: 200;
-
 }
 
 .rbd-review-slider .rbd-content {
-  
   font-size: 15px;
 }
 
@@ -100,13 +94,13 @@
 
 .rbd-review-slider .rbd-review-meta {
   font-size: 12px;
-  color: #04A4EC;
+  color: #04a4ec;
   margin-top: 12px;
   text-align: center;
 }
 
 .rbd-review-slider .rbd-gravatar {
-  border-radius: 100%;
+  border-radius: 20%;
   width: 100px;
   float: left;
   margin-right: 15px;
@@ -117,7 +111,7 @@
 .rbd-footing {
   margin: 20px 0 0;
   text-align: center;
-  color: #04A4EC;
+  color: #04a4ec;
   /* color: rgba(239, 131, 118, 0.75) !important; */
 }
 

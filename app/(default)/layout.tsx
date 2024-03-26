@@ -31,7 +31,7 @@ export default function DefaultLayout({
 
   return (
     <>
-      <main className="grow custom-scrollbar">
+      <main className="grow custom-scrollbar relative">
         {/* <GoogleGeminiEffectDemo/>  */}
 
         {/* <PageIllustration />*/}
@@ -41,13 +41,15 @@ export default function DefaultLayout({
         <div className="justify-content-center justify-center align-items-center">
           <TypingEffect />
         </div>
-        <div className="fixed right-4 top-4 z-50 mb-16">
+        <div className="fixed right-4 top-6 lg:top-4 z-50 mb-16">
           <CallToAction />
         </div>
         <div className="rounded-3xl mt-16">
-        {/* <hr className="w-3/4 h-0.5 mb-6 mx-auto border-0 rounded shadow-sm shadow-sky-500 bg-sky-500"></hr> */}
+          {/* <hr className="w-3/4 h-0.5 mb-6 mx-auto border-0 rounded shadow-sm shadow-sky-500 bg-sky-500"></hr> */}
           <div className="pb-10 rounded-3xl">
-            <h1 className="h3 text-sky-500 text-center font-ethnocentric text-2xl">Customer Reviews</h1>
+            <h1 className="h3 text-sky-500 text-center font-ethnocentric text-2xl">
+              Customer Reviews
+            </h1>
           </div>
           <div className="pb-[100px] lg:pb-[20px] xl:pb-[10px] rounded-3xl">
             <ReviewSlider />
@@ -55,8 +57,8 @@ export default function DefaultLayout({
           {/* <hr className="w-1/4 h-0.5 mx-auto my-6 border-0 rounded bg-sky-500 shadow-md shadow-sky-500"></hr> */}
         </div>
 
-        <div className="max-w-3xl mx-auto text-center pb-1">
-          <h2 className="text-2xl text-sky-500 font-ethnocentric ">
+        <div className="max-w-3xl mx-auto text-center pb-1 mt-4 lg:mt-0">
+          <h2 className="text-2xl text-sky-500 font-ethnocentric">
             Why Us? - Beyond Fintech Development
           </h2>
         </div>

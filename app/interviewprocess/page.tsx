@@ -35,7 +35,7 @@ const InterviewProcess = () => {
               data-aos="fade-up"
             >
               <div
-                className="flex flex-col md:flex-row max-w-4xl mx-auto my-8 p-6 rounded-3xl shadow-md shadow-sky-500 shadow"
+                className="flex flex-col md:flex-row max-w-4xl mx-auto my-8 p-6 rounded-3xl shadow-md shadow-sky-500"
                 // style={boxShadowStyle}
               >
                 <div>
@@ -205,19 +205,19 @@ const InterviewProcess = () => {
           Interview Process at Crabroom: Unlocking Your Potential
         </h1>
         <div className="flex justify-end mt-8">
-          <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-96 rounded-full bg-sky-800 p-2 flex justify-center items-center">
-            <div className="absolute z-10 w-64 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+          <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-96 rounded-full bg-sky-600 hover:bg-sky-700 p-2 flex justify-center items-center">
+            {/* <div className="absolute z-10 w-64 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
             <div className="absolute z-10 w-48 h-40 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
             <div className="absolute z-10 w-36 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
+            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div> */}
             {/* <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div> */}
 
             <div className="relative z-20">
               <Link
                 href={"/jobschedulepage"}
-                className="font-bold text-slate-100"
+                className="font-ethnocentric text-sm text-slate-100"
               >
-                Schedule Interview (Invited applicants only) 🡢
+                Schedule Interview (Invited applicants only)
               </Link>
             </div>
           </button>
@@ -232,7 +232,6 @@ const InterviewProcess = () => {
           a strong fit with our organization's values. Let's explore the four
           rounds of our interview process:
         </p>
-        {renderStepContent()}
         <div
           style={{
             display: "flex",
@@ -245,7 +244,7 @@ const InterviewProcess = () => {
             style={{
               display: "flex",
               position: "relative",
-              marginBottom: "20px",
+              marginBottom: "10px",
             }}
           >
             {[1, 2, 3, 4].map(
@@ -255,7 +254,6 @@ const InterviewProcess = () => {
                     <div
                       style={{
                         position: "absolute",
-
                         top: "50%",
                         left: `calc(${(100 / (array.length - 1)) * index}%)`,
                         transform: "translate(-50%, -50%)",
@@ -310,7 +308,9 @@ const InterviewProcess = () => {
 
           {/* Render dynamic step content */}
         </div>
-        <p className="mb-4 mt-10 text-gray-400" data-aos="fade-up">
+        {renderStepContent()}
+        
+        <p className="mb-4 text-gray-400" data-aos="fade-up">
           At Crabroom, we believe in identifying individuals who align with our
           values and contribute to our shared vision. Our interview process is
           designed to be thorough, insightful, and engaging, ensuring that every
@@ -320,19 +320,19 @@ const InterviewProcess = () => {
         </p>
 
         <div className="flex justify-end mt-8">
-          <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-96 rounded-full bg-sky-800 p-2 flex justify-center items-center">
-            <div className="absolute z-10 w-64 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+          <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-96 rounded-full bg-sky-600 hover:bg-sky-700 p-2 flex justify-center items-center">
+            {/* <div className="absolute z-10 w-64 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
             <div className="absolute z-10 w-48 h-40 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
             <div className="absolute z-10 w-36 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
+            <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div> */}
             {/* <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div> */}
 
             <div className="relative z-20">
               <Link
                 href={"/jobschedulepage"}
-                className="font-bold text-slate-100"
+                className="font-ethnocentric text-sm text-slate-100"
               >
-                Schedule Interview (Invited applicants only) 🡢
+                Schedule Interview (Invited applicants only)
               </Link>
             </div>
           </button>

@@ -120,73 +120,81 @@ const CoreTeamTraits = () => {
   }, []);
 
   return (
-    <div className="lg:px-40 sm:px-0">
-      <div className="pl-8 pr-8">
-        <br />
-        <br />
-        <h1 className="text-2xl font-ethnocentric text-sky-500 mb-4">
-          Joining Crabroom's Junior Core Collaborators
-        </h1>
-        <h2 className="text-lg font-ethnocentric text-gray-500"> Your Guide to Excellence</h2>
-        <div className="flex justify-end">
-          <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-32 rounded-full bg-sky-800 p-2 flex justify-center items-center">
-            {/* <div className="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+    <div>
+      <div className="lg:px-40 sm:px-0">
+        <div className="pl-8 pr-8">
+          <br />
+          <br />
+          <h1 className="text-2xl font-ethnocentric text-sky-500 mb-4">
+            Joining Crabroom's Junior Core Collaborators
+          </h1>
+          <h2 className="text-lg font-ethnocentric text-gray-500">
+            {" "}
+            Your Guide to Excellence
+          </h2>
+          <div className="flex justify-end">
+            <button className="relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-32 rounded-full bg-sky-600 hover:bg-sky-700 p-2 flex justify-center items-center">
+              {/* <div className="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
             <div className="absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div> */}
-            <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-150"></div>
+              {/* <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-150"></div>
             <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-200"></div>
-            <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-300"></div>
+            <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-300"></div> */}
 
-            <div className="relative z-20">
-              <Link
-                href={"/coreteamperks"}
-                className="font-semibold text-slate-100"
-              >
-                Perks 🡢
-              </Link>
-            </div>
-          </button>
-        </div>
-        <br />
-        <h3 className="text-md font-ethnocentric text-gray-400 mb-4">[Six Traits]</h3>
-        <br />
-        <br />
-        <p className="mb-4 text-gray-400" data-aos="fade-up">
-          Crabroom PayInt LLC, a distinguished leader in the payment technology
-          sector, meticulously identifies six fundamental attributes in its
-          prospective team members. These characteristics are imperative for
-          individuals aspiring to distinguish themselves within Crabroom's
-          esteemed Core Collaborators. We shall now examine these essential
-          qualities to comprehend their pivotal role in fostering professional
-          success at Crabroom.
-        </p>
-        <br />
-        <div className="pb-10 sm:px-0 custom-scrollbar">
-          <StickyScroll content={content} />
-        </div>
-        <p className="mb-4 text-gray-400" data-aos="fade-up">
-          At Crabroom, if you show these six qualities, you're on your way to
-          being a top team member. These traits are not just about doing well at
-          Crabroom; they're also about growing personally and professionally. If
-          you've got these qualities, you're ready for an exciting career with
-          Crabroom PayInt LLC, where your skills and dedication will shine.
-        </p>
-        <div className="flex justify-end mt-10 pb-10">
-          <button className=" relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-32 rounded-full bg-sky-800 p-2 flex justify-center items-center">
-            {/* <div className="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+              <div className="relative z-20">
+                <Link
+                  href={"/coreteamperks"}
+                  className="font-ethnocentric text-slate-100"
+                >
+                  Perks
+                </Link>
+              </div>
+            </button>
+          </div>
+          <br />
+          <h3 className="text-md font-ethnocentric text-gray-400 mb-4">
+            [Six Traits]
+          </h3>
+          <br/>
+          <br/>
+          <p className="mb-4 text-gray-400" data-aos="fade-up">
+            Crabroom PayInt LLC, a distinguished leader in the payment
+            technology sector, meticulously identifies six fundamental
+            attributes in its prospective team members. These characteristics
+            are imperative for individuals aspiring to distinguish themselves
+            within Crabroom's esteemed Core Collaborators. We shall now examine
+            these essential qualities to comprehend their pivotal role in
+            fostering professional success at Crabroom.
+          </p>
+          <br/>
+          <div className="pb-10 sm:px-0 custom-scrollbar">
+            <StickyScroll content={content} />
+          </div>
+          <p className="mb-4 text-gray-400" data-aos="fade-up">
+            At Crabroom, if you show these six qualities, you're on your way to
+            being a top team member. These traits are not just about doing well
+            at Crabroom; they're also about growing personally and
+            professionally. If you've got these qualities, you're ready for an
+            exciting career with Crabroom PayInt LLC, where your skills and
+            dedication will shine.
+          </p>
+          <div className="flex justify-end mt-10 pb-10">
+            <button className=" relative duration-500 group cursor-pointer text-slate-100 overflow-hidden h-14 w-32 rounded-full bg-sky-600 hover:bg-sky-700 p-2 flex justify-center items-center">
+              {/* <div className="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
             <div className="absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div> */}
-            <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-150"></div>
+              {/* <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-150"></div>
             <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-200"></div>
-            <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-300"></div>
+            <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-300"></div> */}
 
-            <div className="relative z-20">
-              <Link
-                href={"/coreteamperks"}
-                className="font-semibold text-slate-100"
-              >
-                Perks 🡢
-              </Link>
-            </div>
-          </button>
+              <div className="relative z-20">
+                <Link
+                  href={"/coreteamperks"}
+                  className="font-ethnocentric text-slate-100"
+                >
+                  Perks
+                </Link>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div>

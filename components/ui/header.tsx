@@ -18,27 +18,30 @@ export default function Header() {
         </Link>
       </div>
 
+      
+
+
       {/* Desktop navigation */}
-      <nav className="ml-auto">
-        {/* Desktop sign in links */}
+      {/* <nav className="ml-auto">
+        // Desktop sign in links
         <ul className="flex items-center">
           <li>
-            {/* <Link
+            <Link
               href="/signin"
               className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
             >
               
-            </Link> */}
+            </Link>
           </li>
           <li>
-            {/* <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+            <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
               Sign up
-            </Link> */}
+            </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
-      <MobileMenu />
+      {/* <MobileMenu /> */}
     </header>
   );
 }

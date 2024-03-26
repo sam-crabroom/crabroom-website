@@ -11,7 +11,6 @@ export const StickyScroll = ({
 }: {
   content: {
     title: string;
-  
     description: string;
     content?: React.ReactNode | any;
   }[];
@@ -61,7 +60,7 @@ export const StickyScroll = ({
       ref={ref}
       style={{ scrollbarWidth: 'thin', scrollbarColor: '#04A4EC transparent' }}
     >
-      <div className="div relative w-full max-w-3xl flex items-start ">
+      <div className="div relative w-full max-w-3xl flex items-start">
         <div className="max-w-4xl">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
@@ -97,7 +96,7 @@ export const StickyScroll = ({
         //   background: linearGradients[activeCard % linearGradients.length],
         // }}
         className={cn(
-          "lg:block h-80 w-120 rounded-md flex-col md:flex-row sticky top-10",
+          "lg:block h-0 w-0 sm:h-80 w-120 rounded-md flex-col md:flex-row sticky top-10",
           contentClassName
         )}
       >
